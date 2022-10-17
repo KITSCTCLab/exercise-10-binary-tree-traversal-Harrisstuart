@@ -32,6 +32,8 @@ def merge_sort_ftn(arr, l, r) -> None:
   
 def merge_sort(data) -> None:
   merge_sort_ftn(data, 0, len(data))
+
+
 # Do not change the following code
 input_data = input()
 data = []
